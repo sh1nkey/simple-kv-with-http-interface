@@ -1,4 +1,5 @@
 Writes are saved on disk and in memory (dict)
+CA by CAP (no replication, so no partition tolerance)
 
 How exactly does it work? Writes on disk for durability, reads from in-memory hashmap
 
