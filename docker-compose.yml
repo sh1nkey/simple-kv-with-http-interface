@@ -17,7 +17,5 @@ services:
     volumes:
       - ./data.txt:/app/data.txt:rw
 
-    # user: "appuser"
-
     restart: unless-stopped
 
